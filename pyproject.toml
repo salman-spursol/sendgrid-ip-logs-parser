@@ -1,0 +1,10 @@
+[project]
+name = "sendgrid-ip-logs-parser"
+version = "0.1.0"
+description = "A CLI application for parsing SendGrid IP access logs data from an Excel document."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "rich>=13.9.4",
+]
